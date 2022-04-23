@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex-container {
+  background-color: #375058;
+  padding: 10px;
+  position: relative;
+}
+
+.flex-item {
+  background-color: #d4dfd0;
+  color: #999999;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  width: 100px;
+  border: 1px solid #999999;
+}
+
+.flex-container {
+  /** 显示方式 */
+  display: flex;
+  /* height: 500px; */
+  /** 是否换行 */
+  /* flex-wrap: wrap; */
+  /** 走向 横轴 还是纵轴*/
+  /* flex-flow: row; */
+  /* 主轴对齐方向 flex-start,
+  flex-end center space-between space-around space-evenly*/
+  /* justify-content: center; */
+  /* height: 500px; */
+  /* align-items: baseline; */
+  /* height: 500px; */
+  /* align-content: center; */
+}
+.flex-item:first-child {
+  /* flex: 2 300px; */
+  order: 1;
+}
+/* .flex-item {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.flex-item:last-child {
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.flex-item:first-child {
+  flex-grow: 0.5;
+  flex-shrink: 0.5;
+} */
+/* .flex-item {
+  align-self: flex-start;
+}
+.flex-item:first-child {
+  height: 200px;
+  line-height: 200px;
+  align-self: flex-end;
+}
+
+.flex-item:last-child {
+  height: 300px;
+  line-height: 300px;
+  align-self: center;
+} */
